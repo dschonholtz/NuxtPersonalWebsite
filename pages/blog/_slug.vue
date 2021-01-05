@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <nav>
       <ul>
         <li v-for="link of article.toc" :key="link.id">
@@ -22,8 +23,8 @@
 
       <nuxt-content :document="article" />
       <author :author="article.author"></author>
+      <prev-next :prev="prev" :next="next" />
     </article>
-    <pre> {{ article }} </pre>
     <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
   </div>
   
@@ -32,11 +33,20 @@
 <script>
   export default {
     async asyncData({ $content, params }) {
-      // fetch our article here
-      const article = await $content('articles', params.slug).fetch()
+    const article = await $content('articles', params.slug).fetch()
 
-      return { article }
-    },
+    const [prev, next] = await $content('articles')
+      .only(['title', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .surround(params.slug)
+      .fetch()
+
+    return {
+      article,
+      prev,
+      next
+    }
+  },
     methods: {
         formatDate(date) {
           const options = { year: 'numeric', month: 'long', day: 'numeric' }

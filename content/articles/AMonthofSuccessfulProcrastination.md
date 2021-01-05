@@ -1,5 +1,5 @@
 ---
-title: My first Blog Post
+title: My second Blog Post
 description: Learning how to use @nuxt/content to create a blog
 img: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
 alt: my first blog post
@@ -9,16 +9,12 @@ author:
   image: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
 ---
 
-# How to Procrastinate Productively
+# How to procrastinate again.
 
-Simple initial post.
+second post
 
 ## This is a heading
 
 <div style="background-color: coral;">
   This is HTML inside markdown that has a class of note
 </div>
-
-### This is a sub heading
-
-This is some more info

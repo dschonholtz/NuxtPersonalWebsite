@@ -1,77 +1,66 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        personal_website
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-      <Blog>
-      </Blog>
+  <div>
+    <Header/>
+    <div class="container">
+      <ul>
+        <li v-for="article of articles" :key="article.slug" class="card">
+          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }" class="card--link">
+            <img :src="article.img" width="100"/>
+            <div>
+              <h2>{{ article.title }}</h2>
+              <p>by {{ article.author.name }}</p>
+              <p>{{ article.description }}</p>
+            </div>
+          </NuxtLink>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+  export default {
+    async asyncData({ $content, params }) {
+      const articles = await $content('articles', params.slug)
+        .only(['title', 'description', 'img', 'slug', 'author'])
+        .sortBy('createdAt', 'asc')
+        .fetch()
 
-export default Vue.extend({})
+      return {
+        articles
+      }
+    }
+  }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style scoped lang="scss">
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    list-style: none;
+    width: 30rem;
+    border-radius: 8px;
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+    &--link {
+      display: inline-flex;
+      flex-direction: row;
+      > * {
+        margin: .5rem .5rem;
+      }
+    }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
 
-.links {
-  padding-top: 15px;
-}
-</style>
+   &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+  }
+  li {
+    padding: .5rem 1rem;
+    margin: .5rem 1rem;
+  }
+  ul {
+    display: flex;
+    flex-flow: wrap;
+  }
+</style>>
