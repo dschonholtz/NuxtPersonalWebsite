@@ -20,8 +20,10 @@
     flex-direction: row;
     text-decoration: none;
     color: $color-grey-dark-3;
-    > * {
-      margin: .5rem .5rem;
+    margin: 1.5rem 1.5rem;
+    transition: all .2s ease-in;
+    &:hover {
+      margin: 1.5rem 3.5rem;
     }
   }
 </style>

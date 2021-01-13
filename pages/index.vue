@@ -29,6 +29,10 @@ import BlogPreview from "~/components/BlogPreview.vue"
 
 <style lang="scss">
   .container {
-    margin
+    margin: 2rem;
+    transition: all .15s;
+    &:focus {
+        margin: 3rem;
+    }
   }
-</style>>
+</style>
