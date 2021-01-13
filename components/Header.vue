@@ -1,7 +1,7 @@
 <template>
   <div class="header">
-     <NuxtLink to="/">
-      <h1 class="title">A Percent Every Week</h1>
+     <NuxtLink to="/" class="nuxt-link">
+      <h1 class="title">Percent Every Week</h1>
      </NuxtLink>
     <span class="search">
       <AppSearchInput />
@@ -14,8 +14,11 @@
     max-width: 12rem;
   }
   .header {
-    background-color: black;
+    background-color: $color-grey-light-2;
     display: flex;
     justify-content: space-between;
+  }
+  .title {
+    margin-inline: 1rem;
   }
 </style>

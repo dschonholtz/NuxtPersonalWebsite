@@ -1,24 +1,15 @@
 ---
-title: My first Blog Post
+title: My First Blog Post
 description: Learning how to use @nuxt/content to create a blog
 img: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
-alt: my first blog post
+alt: My First blog post
 author:
   name: Douglas
   bio: Douglas built this using Nuxt.js's page.
-  image: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
+  image:
+  alt: doug's profile pic
 ---
 
 # How to Procrastinate Productively
 
 Simple initial post.
-
-## This is a heading
-
-<div style="background-color: coral;">
-  This is HTML inside markdown that has a class of note
-</div>
-
-### This is a sub heading
-
-This is some more info

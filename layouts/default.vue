@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
   font-family:
     'Source Sans Pro',
@@ -59,4 +59,10 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.nuxt-link-active {
+  text-decoration: none;
+  color: $color-grey-dark-3;
+}
+
 </style>

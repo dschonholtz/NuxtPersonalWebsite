@@ -2,7 +2,7 @@
   <div class="search--wraper">
     <input
       v-model="searchQuery"
-      type="search"
+      type="\uf002; Search"
       autocomplete="off"
       placeholder="Search"
       class="search"
@@ -22,7 +22,7 @@
     data() {
       return {
         searchQuery: '',
-        articles: []
+        articles: [],
       }
     },
     watch: {
@@ -49,13 +49,17 @@
   .search {
     border-radius: 8px;
     height: 2rem;
+    width: 9rem;
     margin: .5rem;
-    border:1px solid $light-grey;
+    border:1px solid $color-grey-dark-2;
+
+    transition: all .45s;
 
     &:focus {
       outline: none !important;
-      border:1px solid $light-grey;
-      box-shadow: 0 0 10px $light-grey;
+      border:1px solid $color-grey-dark-2;
+      box-shadow: 0 0 10px $color-grey-dark-2;
+      width: 10rem;
     }
   
       &--wrapper {
@@ -64,7 +68,7 @@
       }
   }
   ::placeholder {
-    color: $light-grey;
+    color: $color-grey-dark-2;
   }
 
 

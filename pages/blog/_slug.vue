@@ -9,12 +9,6 @@
       </ul>
     </nav>
 
-    <info-box>
-      <template #info-box>
-        This is a vue component inside markdown using slots
-      </template>
-    </info-box>
-
     <article>
       <h1>{{ article.title }}</h1>
       <p>{{ article.description }}</p>
@@ -25,7 +19,6 @@
       <author :author="article.author"></author>
       <prev-next :prev="prev" :next="next" />
     </article>
-    <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
   </div>
   
 </template>
