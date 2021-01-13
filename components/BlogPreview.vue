@@ -4,6 +4,7 @@
       <h2>{{ article.title }}</h2>
       <p>{{ article.description }}</p>
       <p>Last Updated: {{ article.updatedAt }}</p>
+      
     </div>
   </NuxtLink>
 </template>
@@ -21,9 +22,9 @@
     text-decoration: none;
     color: $color-grey-dark-3;
     margin: 1.5rem 1.5rem;
-    transition: all .2s ease-in;
+    transition: all .2s ease-in-out;
     &:hover {
-      margin: 1.5rem 3.5rem;
+      margin: 1.5rem 2.5rem;
     }
   }
 </style>
