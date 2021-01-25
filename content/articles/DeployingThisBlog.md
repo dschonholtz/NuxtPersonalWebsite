@@ -1,12 +1,12 @@
 ---
-title: My Third Blog Post
-description: more
-img: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
+title: Deploying this to Digital Ocean
+description: Deploying the production docker containers
+img: DockerLogo.png
 alt: my Third blog post
 author:
   name: Douglas
   bio: Douglas built this using Nuxt.js's page.
-  image: 
+  image: NuxtLogo.png
   alt: Doug's profile pic
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: My Second Blog Post
-description: Learning how to use @nuxt/content to create a blog
-img: https://miro.medium.com/max/2800/0*EVZkEtjw-kHGkfHG.png
+title: The goal with this blog
+description: And what's with the logo?
+img: DockerLogo.png
 alt: my first blog post
 author:
   name: Douglas
   bio: Douglas built this using Nuxt.js's page.
-  image: 
+  image: NuxtLogo.png
   alt: Doug's Pic
 ---
 

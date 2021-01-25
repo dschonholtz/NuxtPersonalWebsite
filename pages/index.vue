@@ -1,10 +1,8 @@
 <template>
   <div>
-    <Header/>
     <div class="container">
         <div v-for="article of articles" :key="article.slug">
           <blog-preview :article="article"></blog-preview>
-          
         </div>
     </div>
   </div>
