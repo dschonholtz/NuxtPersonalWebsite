@@ -6,6 +6,8 @@
 
 Travis CI should now be up and running
 
+Dockerhub should do autobuilds now on push as well
+
 # install dependencies
 $ yarn install
 
