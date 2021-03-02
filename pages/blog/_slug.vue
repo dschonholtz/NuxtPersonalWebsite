@@ -1,24 +1,24 @@
 <template>
-  <div>
-    <nav>
-      <ul>
-        <li v-for="link of article.toc" :key="link.id">
-          <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-
+  <div class="container">
     <article>
       <h1>{{ article.title }}</h1>
+      <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="image-header"/>
       <p>{{ article.description }}</p>
-      <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+      <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
+
+      <nav class="toc">
+        <ul>
+          <li v-for="link of article.toc" :key="link.id">
+            <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+          </li>
+        </ul>
+      </nav>
 
       <nuxt-content :document="article" />
       <author :author="article.author"></author>
       <prev-next :prev="prev" :next="next" />
     </article>
   </div>
-  
 </template>
 
 <script>
@@ -47,7 +47,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;
@@ -60,11 +60,17 @@
     margin-bottom: 20px;
   }
 
-  .icon.icon-link {
-    background-image: url('~assets/svg/icon-hashtag.svg');
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
+  .image-header {
+    max-height: 20vh;
+    max-width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .toc {
+    color: $color-grey-dark-2;
+    margin: 1rem;
   }
 </style>

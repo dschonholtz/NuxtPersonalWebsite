@@ -1,5 +1,5 @@
 <template>
-  <div class="search--wraper">
+  <div>
     <input
       v-model="searchQuery"
       type="Search"
@@ -46,10 +46,10 @@
 
   .search {
     border-radius: 16px;
-    height: 2.5rem;
+    height: 2rem;
     width: 11rem;
     margin-bottom: .5rem;
-    margin-top: .75rem;
+    margin-top: 1rem;
     margin-left: 0;
     margin-right: .75rem;
     border:1px solid $color-grey-dark-2;

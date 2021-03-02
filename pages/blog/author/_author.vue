@@ -1,20 +1,11 @@
 <template>
-  <div>
-    <h1>Author: {{ articles[0].author.name }}</h1>
-    <p>Bio: {{ articles[0].author.bio }}</p>
-    <h3>Here are a list of articles by {{ articles[0].author.name }}:</h3>
-    <ul>
-      <li v-for="article in articles" :key="article.slug">
-        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-          <img :src="article.img" :alt="article.alt" />
-          <div>
-            <h2>{{ article.title }}</h2>
-            <p>{{ article.description }}</p>
-            <p>{{ formatDate(article.updatedAt) }}</p>
-          </div>
-        </NuxtLink>
-      </li>
-    </ul>
+  <div class="container">
+      <Author :author="articles[0].author"/>
+      <div class="more-margin-container">
+        <div v-for="article in articles" :key="article.slug">
+          <blog-preview :article="article"></blog-preview>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -36,10 +27,19 @@
       }
     },
     methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('en', options)
+      }
     }
   }
-  }
 </script>
+
+<style scoped lang="scss">
+
+  .more-margin-container {
+    margin: 4rem;
+    margin-top: 0;
+  }
+
+</style>

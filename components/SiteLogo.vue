@@ -1,5 +1,5 @@
 <template>
-    <canvas id="logo--canvas" class="logo--canvas" height="60" width="120">
+    <canvas id="logo--canvas" class="logo--canvas" height="60" width="110" @mouseover="mouseOver">
     </canvas>
 </template>
 
@@ -19,15 +19,24 @@ export default {
             colorExp: "#2998ff",
             colorSig: '#55c57a',
             lineWidth: 3,
+            isDrawing: true
         }
     },
     methods: {
+        async mouseOver() {
+            if (this.ctx && this.canvas && !this.isDrawing) {
+                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+                this.init();
+            }
+        },
         async init() {
+            this.isDrawing = true;
             this.canvas = document.getElementById('logo--canvas');
             this.ctx = this.canvas.getContext("2d");
             await this.drawWSubtractor(this.getSubtractorLin, this.colorLin, .1);
             await this.drawWSubtractor(this.getSubtractorExp, this.colorExp, .1);
             await this.drawWSubtractor(this.getSubtractorSigmoid, this.colorSig, .1);
+            this.isDrawing = false;
         },
         async drawWSubtractor(subtractorFunc, color, initSub) {
             var subtractor = initSub;

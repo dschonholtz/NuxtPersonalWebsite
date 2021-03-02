@@ -6,7 +6,7 @@ alt: my first blog post
 author:
   name: Douglas
   bio: Douglas built this using Nuxt.js's page.
-  image: NuxtLogo.png
+  image: ProfileDoug.jpg
   alt: Doug's Pic
 ---
 
