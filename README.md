@@ -3,6 +3,9 @@
 ## Build Setup
 
 ```bash
+
+Travis CI should now be up and running
+
 # install dependencies
 $ yarn install
 
