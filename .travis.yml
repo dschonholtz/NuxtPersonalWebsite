@@ -5,6 +5,6 @@ services:
 
 script:
         - docker build -t schonholtzd/nuxt-personal-website ./ -f Dockerfile
-        - echo "$DOCKER_PASSWORD" | docker login docker.io -u "$DOCKER_ID" --password-stdin
+        - echo "$DOCKER_PASSWORD" | docker login docker.io --username "$DOCKER_ID" --password-stdin
         - docker push schonholtzd/nuxt-personal-website
 
