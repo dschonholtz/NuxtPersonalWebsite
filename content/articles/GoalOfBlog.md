@@ -10,7 +10,5 @@ author:
   alt: Doug's Pic
 ---
 
-# How to procrastinate again.
-
-second post
+# The goal for now is to deploy
 
