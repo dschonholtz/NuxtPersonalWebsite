@@ -12,4 +12,4 @@ COPY . .
 
 CMD ["npm", "run", "build"]
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "generate"]
