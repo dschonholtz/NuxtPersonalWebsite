@@ -1,15 +1,14 @@
-FROM node:alpine
-
-# node gyp a dep needs python 
-RUN apk add g++ make python
-
+### STAGE 1: Build ###
+FROM node:alpine as build
 WORKDIR '/app'
-
+ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json .
 RUN npm install
+COPY . '/app'
+RUN npm run generate
 
-COPY . .
-
-CMD ["npm", "run", "build"]
-
-CMD ["npm", "run", "generate"]
+### STAGE 2: NGINX ###
+FROM nginx:stable-alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
