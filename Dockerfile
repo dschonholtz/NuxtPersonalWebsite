@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM node:alpine as build
+FROM node:lts-alpine as build
 WORKDIR '/app'
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json .
