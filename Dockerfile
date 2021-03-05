@@ -4,7 +4,7 @@ WORKDIR '/app'
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json .
 RUN npm install
-COPY . '/app'
+COPY . .
 RUN npm run generate
 
 ### STAGE 2: NGINX ###
