@@ -16,6 +16,4 @@ jobs:
           email: ${{ secrets.HEROKU_EMAIL }} # your heroku email
           api_key: ${{ secrets.HEROKU_API_KEY }} # your  heroku api key
           app_name: nuxt-personal-website # you aplication name
-          dockerfile_path: '.' # set the path to the folder wher the Dokerfile is located
-          options: '' # Docker Build Options
           formation: 'npm run generate' # Docker Dyno Formation. By default is web
