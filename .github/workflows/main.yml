@@ -16,4 +16,3 @@ jobs:
           email: ${{ secrets.HEROKU_EMAIL }} # your heroku email
           api_key: ${{ secrets.HEROKU_API_KEY }} # your  heroku api key
           app_name: nuxt-personal-website # you aplication name
-          formation: 'npm run generate' # Docker Dyno Formation. By default is web
