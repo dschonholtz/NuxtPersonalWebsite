@@ -1,5 +1,5 @@
 ---
-title: Deploying this to Digital Ocean
+title: Deploying a Universal NuxtJS Blog to Digital Ocean Apps with Docker, Nuxt Generate, and Nginx
 description: Deploying the production docker containers
 img: DockerLogo.png
 alt: my Third blog post
