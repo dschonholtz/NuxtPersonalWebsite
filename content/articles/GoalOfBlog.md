@@ -20,6 +20,8 @@ The problem with all of that has been that I forget it or at the very least I do
 
 What I would like, is to get a constant small weekly improvement on all of my goals and a small daily improvement on one of my goals in particular. This means I have to be extremely focused, stop trying a million things and think about everysingle thing that I do through the lense of does it help me do the things that are actually important to me.
 
+The final piece of this puzzle is writing down everything I learn and sharing it with a wider audience so people can tell me when I'm stupid why I am and how I can get better. As well as allowing me to actually clarify my own thoughts to share them with others
+
 Now to be clear, because of my historic lack of focus I will be learning with you how to go from a novice to an expert. I will do that by improving a little bit each day. As I get more experienced, my work will hopefully draw eyes from more experienced people but I hope right from the begining my work will be helpful to my fellow fools trying to start learning something in earnest.
 
 So stick around if you want to learn with me how to become an elite athlete or machine learning guru a little bit every day.
