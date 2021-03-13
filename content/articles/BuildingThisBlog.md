@@ -1,7 +1,7 @@
 ---
 title: Building This Blog
-description: Building a Universal Blog with NustJS Content, SCSS, Nginx, and Docker
-img: AllLogos.png
+description: Building a Universal Blog with NustJS Content, Sass, Nginx, and Docker
+img: BuildingThis.png
 alt: My First blog post
 author:
   name: Douglas
