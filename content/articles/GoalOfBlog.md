@@ -1,6 +1,6 @@
 ---
 title: The goal of this blog
-description: And what's with the logo?
+description: What the framework is for rapid skill improvement this blog is about.
 img: LogoNoBG.png
 alt: My first blog post Logo image for blog
 author:
@@ -10,7 +10,7 @@ author:
   alt: Doug's Pic
 ---
 
-# Why make a blog? change
+# Why make a blog?
 
 This blog is about the path of a complete novice attempting to become excellent at a small subset of things. The goal is to then publish that journey to get feedback, to see the error of my ways, and to help others along similar journeys. 
 
