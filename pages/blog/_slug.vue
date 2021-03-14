@@ -73,4 +73,11 @@
     color: $color-grey-dark-2;
     margin: 1rem;
   }
+  .container {
+    flex: 1;
+    flex-grow: 0;
+    flex-basis: 80%;
+    margin: 0;
+
+  }
 </style>

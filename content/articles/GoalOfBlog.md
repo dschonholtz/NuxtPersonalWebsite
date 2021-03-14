@@ -10,19 +10,25 @@ author:
   alt: Doug's Pic
 ---
 
-# Why make a blog?
+# Why make a blog? change
 
-This blog isn't for you if you want a deluge of constant content to gratify you. This blog is designed to be a guide for myself and for others on how to track their ones goals and actual behavior in a way to take control of ones own life to accomplish the things that are actually important to oneself. It is going to track how I do that with my subset of goals of becoming an AI researcher, and becoming a top performing athlete.
+This blog is about the path of a complete novice attempting to become excellent at a small subset of things. The goal is to then publish that journey to get feedback, to see the error of my ways, and to help others along similar journeys. 
 
-Over the last several years I have bounced through a variety of ideas, classes and projects. Rarely finishing them and often learning immensely from them only to forget that material later. Be that something physical like rock climbing, muay thai, weight lifting or crossfit or be it something purely mental. Like a variety of machine learning classes, a variety of papers largely on hand writing recognition, web development, augmented reality development for the hololens, numpy image processing, the importance of causal inference in our quest for strong AI or anything else in the list of ever growing things I have now peeked at.
+The list of things to start is as follows:
 
-The problem with all of that has been that I forget it or at the very least I don't document what worked well. I end up not being in a place where I can teach it to others and the knowledge fades to a level of vagueness that requires myself to reteach myself that material.
+* Machine Learning
+* Crossfit
+* Building a successful podcast
+* Building a successful website (This one!)
 
-What I would like, is to get a constant small weekly improvement on all of my goals and a small daily improvement on one of my goals in particular. This means I have to be extremely focused, stop trying a million things and think about everysingle thing that I do through the lense of does it help me do the things that are actually important to me.
+The path to do this is built on exponential progress. Make each change build on top of the previous change. This means making a very small positive impact towards one of those goals every. single. day.
 
-The final piece of this puzzle is writing down everything I learn and sharing it with a wider audience so people can tell me when I'm stupid why I am and how I can get better. As well as allowing me to actually clarify my own thoughts to share them with others
+Lots of very small changes might seem like a very slow and long way to mastery, but humans are bad at understanding exponential trends. Our minds inherently think linearly. With this in mind, we look for big linear jumps in progress, even if that means taking a long time between those jumps.
 
-Now to be clear, because of my historic lack of focus I will be learning with you how to go from a novice to an expert. I will do that by improving a little bit each day. As I get more experienced, my work will hopefully draw eyes from more experienced people but I hope right from the begining my work will be helpful to my fellow fools trying to start learning something in earnest.
+The problem with these occasional large jumps is they often are followed by progress atrophy and the next big jump does not necessarily build on the previous jump. 
 
-So stick around if you want to learn with me how to become an elite athlete or machine learning guru a little bit every day.
+What is far more valuable is to constantly look for small progress that builds on previous progress. This allows very effective exponential progress. The problem is this progress often feels slow. When thinking about it our brain expects this to be small linear progress that barely gets us anywhere. 
 
+The reality is entirely different, we of course exponentially build on what we have learned. This constant incremental progress allows us to overcome nearly all obstacles. A classic example of this is seen from the Great Britain’s cycling teams implementation of marginal change: https://www.lodenfrazecpas.com/the-aggregate-of-marginal-change/
+
+By constantly applying small incremental changes to a small subset of goals one wants to master, one can in theory become world class at it. The problem is, in order to do that effectively. You have to track where those improvements are going and what they are. That is what this blog is about.
