@@ -1,6 +1,6 @@
 ---
 title: The goal of this blog
-description: What the framework is for rapid skill improvement this blog is about.
+description: The value I, and hopefully you, will get from from this blog.
 img: LogoNoBG.png
 alt: My first blog post Logo image for blog
 author:
