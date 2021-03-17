@@ -10,6 +10,4 @@ author:
   alt: Doug's profile pic
 ---
 
-Simple initial post.
-
 ### this is a heading

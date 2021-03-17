@@ -12,23 +12,19 @@ author:
 
 # Why make a blog?
 
-This blog is about the path of a complete novice attempting to become excellent at a small subset of things. The goal is to then publish that journey to get feedback, to see the error of my ways, and to help others along similar journeys. 
+The overarching reasons for making a blog boiled down to three major buckets. I wanted to keep my developer skills up to date on projects I wouldn’t otherwise be exposed to. I wanted to have a public place I could deploy microservices and finished projects to. Finally, I wanted to track all of the other things in my life I have going on. This would allow me to track my progress in them and to get them to a point where I would be comfortable sharing them with the world.
 
-The list of things to start is as follows:
+For developer skills, I wanted to learn a variety of things I wasn't otherwise using as much as I'd like. Using a modern JavaScript frontend framework, deploying things on my own, bash scripting, and kubernetes were some of the initial items. In this first iteration of my site, I have used Nuxt for it’s content management, being built upon the simplest of the major JS frameworks (Vue), and it's strength with content, and SEO optimization. More technical details and such and reasons behind the stack for this site can be found in my [Building This Blog](dailyprogress.dev/blog/BuildingThisBlog) post.
+
+For my other projects I would like to track I am going to be starting with a few of my major interests. 
 
 * Machine Learning
 * Crossfit
-* Building a successful podcast
-* Building a successful website (This one!)
+* Building a podcast
+* Building a website (Where you are now!)
+* General Productivity Optimization
 
-The path to do this is built on exponential progress. Make each change build on top of the previous change. This means making a very small positive impact towards one of those goals every. single. day.
+Then for each of those, I am going to attempt to improve each of them a tiny bit each day, document that progress here and hopefully achieve some level of exponential growth as that progress continuously compounds. The idea being, that if I can do that for an extended period of time, that exponential growth will eventually make me world class at each of those things.
 
-Lots of very small changes might seem like a very slow and long way to mastery, but humans are bad at understanding exponential trends. Our minds inherently think linearly. With this in mind, we look for big linear jumps in progress, even if that means taking a long time between those jumps.
+If any of those things sounds interesting to you or you are trying to improve similar things I hope you will find this interesting and stick around for regular updates and to learn something new with me every day.
 
-The problem with these occasional large jumps is they often are followed by progress atrophy and the next big jump does not necessarily build on the previous jump. 
-
-What is far more valuable is to constantly look for small progress that builds on previous progress. This allows very effective exponential progress. The problem is this progress often feels slow. When thinking about it our brain expects this to be small linear progress that barely gets us anywhere. 
-
-The reality is entirely different, we of course exponentially build on what we have learned. This constant incremental progress allows us to overcome nearly all obstacles. A classic example of this is seen from the Great Britain’s cycling teams implementation of marginal change: https://www.lodenfrazecpas.com/the-aggregate-of-marginal-change/
-
-By constantly applying small incremental changes to a small subset of goals one wants to master, one can in theory become world class at it. The problem is, in order to do that effectively. You have to track where those improvements are going and what they are. That is what this blog is about.
