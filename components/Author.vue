@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="author-container">
     <NuxtLink :to="`/blog/author/${author.name}`" class="author-link">
       <img :src="require(`~/assets/img/${author.image}`)" :alt="author.alt" class="image-preview"/>
       <div>
@@ -58,4 +58,15 @@
   .author-text {
     margin: 1rem;
   }
+
+  .author-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: $default-content-width - 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 </style>

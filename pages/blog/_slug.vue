@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="content-container">
     <article>
-      <h1>{{ article.title }}</h1>
+      <h1 class="meta-info--header">{{ article.title }}</h1>
+      <p class="meta-info">{{ article.description }}</p>
+      <p class="meta-info">Last updated: {{ formatDate(article.updatedAt) }}</p>
       <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="image-header"/>
-      <p>{{ article.description }}</p>
-      <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
 
       <nav class="toc">
         <ul>
@@ -48,6 +48,31 @@
 </script>
 
 <style lang="scss">
+
+  .meta-info {
+    padding-left: 2rem;
+
+    &--header {
+      padding-left: 2rem;
+      padding-top: 1rem;
+    }
+  }
+
+  .nuxt-content {
+    max-width: $default-content-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .nuxt-content h1 {
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;
@@ -60,8 +85,11 @@
     margin-bottom: 20px;
   }
 
+  .nuxt-content ul {
+    padding-bottom: 1rem;
+  }
+
   .image-header {
-    max-height: 20vh;
     max-width: 80vw;
     display: block;
     margin-left: auto;

@@ -38,8 +38,9 @@
 <style scoped lang="scss">
 
   .more-margin-container {
-    margin: 4rem;
-    margin-top: 0;
+    max-width: $default-content-width;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 </style>
