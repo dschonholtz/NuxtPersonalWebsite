@@ -1,11 +1,13 @@
 <template>
   <div class="content-container">
     <article>
-      <h1 class="meta-info--header">{{ article.title }}</h1>
-      <p class="meta-info">{{ article.description }}</p>
-      <p class="meta-info">Last updated: {{ formatDate(article.updatedAt) }}</p>
       <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="image-header"/>
-
+      <div class="meta-info">
+        <h1>{{ article.title }}</h1>
+        <p>{{ article.description }}</p>
+        <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
+        <br/>
+      </div>
       <nav class="toc">
         <ul>
           <li v-for="link of article.toc" :key="link.id">
@@ -50,12 +52,11 @@
 <style lang="scss">
 
   .meta-info {
+    max-width: $default-content-width;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 2rem;
-
-    &--header {
-      padding-left: 2rem;
-      padding-top: 1rem;
-    }
+    padding-right: 2rem;
   }
 
   .nuxt-content {

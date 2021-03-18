@@ -1,5 +1,5 @@
 ---
-title: The goal of this blog
+title: The Goal of this Blog
 description: The value I, and hopefully you, will get from from this blog.
 img: LogoNoBG.png
 alt: My first blog post Logo image for blog
@@ -9,8 +9,6 @@ author:
   image: ProfileDoug.jpg
   alt: Doug's Pic
 ---
-
-# Why make a blog?
 
 The overarching reasons for making a blog boiled down to three major buckets. I wanted to keep my developer skills up to date on projects I wouldn’t otherwise be exposed to. I wanted to have a public place I could deploy microservices and finished projects to. Finally, I wanted to track all of the other things in my life I have going on. This would allow me to track my progress in them and to get them to a point where I would be comfortable sharing them with the world.
 

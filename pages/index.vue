@@ -16,7 +16,7 @@ import BlogPreview from "~/components/BlogPreview.vue"
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .only(['title', 'description', 'img', 'slug', 'author'])
-        .sortBy('createdAt', 'asc')
+        .sortBy('createdAt', 'des')
         .fetch()
 
       return {
