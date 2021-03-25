@@ -1,7 +1,7 @@
 ---
 title: Building This Blog
 description: Building a Universal Blog with NustJS Content, Sass, Nginx, and Docker
-img: BuildingThis.png
+img: BuildingThis.jpg
 alt: My First blog post
 author:
   name: Douglas

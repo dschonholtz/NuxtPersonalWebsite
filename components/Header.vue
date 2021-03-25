@@ -1,23 +1,34 @@
 <template>
-  <div class="header">
-     <NuxtLink to="/" class="nuxt-link">
-      <SiteLogo/>
-     </NuxtLink>
-    <span class="search">
-      <AppSearchInput />
-    </span>
-  </div>
+<nav class="uk-navbar-container uk-margin" uk-navbar>
+    <div class="nav-overlay uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Machine Learning</a></li>
+            <li class="uk-active"><a href="#">Web Development</a></li>
+            <li class="uk-active"><a href="#">Fitness</a></li>
+            <li class="uk-active"><a href="#">Misc.</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-overlay uk-navbar-right">
+        <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+    </div>
+
+    <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+
+        <div class="uk-navbar-item uk-width-expand">
+            <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search" autofocus>
+            </form>
+        </div>
+
+        <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+
+    </div>
+
+</nav>
+
 </template>
 
 <style scoped lang="scss">
-  .search {
-    max-width: 14rem;
-  }
-  .header {
-    background-color: $color-grey-light-2;
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: 4rem;
-  }
 </style>

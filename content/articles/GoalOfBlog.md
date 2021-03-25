@@ -1,7 +1,7 @@
 ---
 title: The Goal of this Blog
 description: The value I, and hopefully you, will get from from this blog.
-img: LogoNoBG.png
+img: Goals.jpg
 alt: My first blog post Logo image for blog
 author:
   name: Douglas

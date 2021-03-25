@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '~/plugins/uikit', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -38,10 +39,11 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    
   ],
   styleResources: {
-    scss: ['./assets/scss/variables.scss']
+    scss: ['./assets/scss/variables.scss', 'uikit/dist/css/uikit.css'],
   },
   fontawesome: {
     icons: {
