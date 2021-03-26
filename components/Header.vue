@@ -1,5 +1,5 @@
 <template>
-<nav class="uk-navbar-container uk-margin" uk-navbar>
+<nav class="uk-navbar-container" uk-navbar>
     <div class="nav-overlay uk-navbar-left">
         <a class="uk-navbar-item uk-logo" href="#">Logo</a>
         <ul class="uk-navbar-nav">

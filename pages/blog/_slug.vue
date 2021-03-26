@@ -1,25 +1,38 @@
 <template>
-  <div class="content-container">
-    <article>
-      <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="image-header"/>
-      <div class="meta-info">
-        <h1>{{ article.title }}</h1>
-        <p>{{ article.description }}</p>
-        <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
-        <br/>
-      </div>
-      <nav class="toc">
-        <ul>
-          <li v-for="link of article.toc" :key="link.id">
-            <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
-          </li>
-        </ul>
-      </nav>
+  <div>
+    <div class="uk-section uk-section-default uk-padding-remove-vertical">
+      <div class="uk-container uk-container-large">
+        <h1 class="uk-article-title">{{ article.title }}</h1>
+        <p class="uk-article-meta">Published: {{this.formatDate(article.createdAt) }}</p>
+        <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="article-img uk-align-center">
+        <article class="uk-article">
+          <nav class="toc">
+            <ul>
+              <li v-for="link of article.toc" :key="link.id">
+                <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+              </li>
+            </ul>
+          </nav>
+          <p class="uk-text-lead">
+            {{ article.description }}
+          </p>
 
-      <nuxt-content :document="article" />
-      <author :author="article.author"></author>
-      <prev-next :prev="prev" :next="next" />
-    </article>
+          <nuxt-content :document="article" />
+        </article>
+      </div>
+    </div>
+    <div class="uk-section uk-section-default">
+      <div class="uk-container uk-container-large">
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+          <div class="uk-width-1-2">
+            <blog-preview v-if="this.prev" :article="this.prev"></blog-preview>
+          </div>
+          <div class="uk-width-1-2">
+            <blog-preview  v-if="this.next" :article="this.next"></blog-preview>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,7 +42,7 @@
     const article = await $content('articles', params.slug).fetch()
 
     const [prev, next] = await $content('articles')
-      .only(['title', 'slug'])
+      .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
@@ -50,56 +63,11 @@
 </script>
 
 <style lang="scss">
+.article-img {
+  max-height: 50vh;
+}
 
-  .meta-info {
-    max-width: $default-content-width;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .nuxt-content {
-    max-width: $default-content-width;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .nuxt-content h1 {
-    font-weight: bold;
-    font-size: 32px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .nuxt-content h2 {
-    font-weight: bold;
-    font-size: 28px;
-  }
-  .nuxt-content h3 {
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .nuxt-content p {
-    margin-bottom: 20px;
-  }
-
-  .nuxt-content ul {
-    padding-bottom: 1rem;
-  }
-
-  .image-header {
-    max-width: 80vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .toc {
-    color: $color-grey-dark-2;
-    margin: 1rem;
-  }
+h1 .uk-article-title {
+  justify-content: center;
+}
 </style>

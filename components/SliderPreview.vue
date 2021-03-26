@@ -1,22 +1,18 @@
 <template>
     <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-        <div class="uk-panel" ratio: false; uk-height-viewport="offset-bottom: 20">
-            <img :src="require(`~/assets/img/${article.img}`)" alt="plz">
-            <div class="uk-position-center uk-text-center">
-                <h2 uk-slider-parallax="x: 100,-100">{{ article.title }}</h2>
-            </div>
+        <img :src="require(`~/assets/img/${article.img}`)" alt="" uk-cover>
+        <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small">
+            <h3 class="uk-margin-remove">{{ article.title }}</h3>
         </div>
     </NuxtLink>
 </template>
 
 <script>
   export default {
-    props: ['article']
+    props: ['article'],
   }
 </script>
 
 <style scoped lang="scss">
-img {
-      z-index: 999;
-}
+
 </style>
