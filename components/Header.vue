@@ -1,7 +1,7 @@
 <template>
 <nav class="uk-navbar-container" uk-navbar>
     <div class="nav-overlay uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+        <NuxtLink class="uk-navbar-item uk-logo" to="/">Daily Progress</NuxtLink>
         <ul class="uk-navbar-nav">
             <li class="uk-active"><a href="#">Machine Learning</a></li>
             <li class="uk-active"><a href="#">Web Development</a></li>
