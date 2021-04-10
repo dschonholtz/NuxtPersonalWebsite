@@ -3,10 +3,7 @@
     <div class="nav-overlay uk-navbar-left">
         <NuxtLink class="uk-navbar-item uk-logo" to="/">Daily Progress</NuxtLink>
         <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="#">Machine Learning</a></li>
-            <li class="uk-active"><a href="#">Web Development</a></li>
-            <li class="uk-active"><a href="#">Fitness</a></li>
-            <li class="uk-active"><a href="#">Misc.</a></li>
+            <li><NuxtLink to="/blog/About">About</NuxtLink></li>
         </ul>
     </div>
 
