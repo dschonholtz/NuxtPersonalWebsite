@@ -8,7 +8,7 @@
     </div>
 
     <div class="nav-overlay uk-navbar-right">
-        <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+        <app-search-input/>
     </div>
 
     <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>

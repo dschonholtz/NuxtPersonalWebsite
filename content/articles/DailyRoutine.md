@@ -55,8 +55,7 @@ But enough chat. Here is the routine for a normal day.
   - Eat hang out. Relax
 - 6:00 pm - 8:00 pm - Deep Work
   - This deep work session is on personal projects. Looking at grad school. Social media. This blog. That kind of thing. The last 30 minutes of this is reserved for writing a daily.
-- 8:00 pm - 9:30 pm - Relax and spend time with folks
-  - The GF gets mad at me if I don't do this.
+- 8:00 pm - 9:30 pm - Relax and spend time with ffriends and family
 - 9:30 pm - 10:00 pm - Read
   - It's important to limit screen time before sleep and to get the head ready for bed. This is normally fiction since I'm basically falling asleep as I'm reading.
 - 10:pm pm - 6:00 am - SLEEP
