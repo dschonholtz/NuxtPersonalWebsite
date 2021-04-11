@@ -39,13 +39,21 @@
 <script>
   export default {
     async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+      // Need to make articles a variable that gets passed in somehow/is configurable to allow multiple pages
+      let url = 'articles';
+      // This is a nasty hack and I hate it but it works and I don't have to keep
+      // messing with content
+      if (params.slug.includes('daily')) {
+        url = 'articles/dailies';
+      }
 
-    const [prev, next] = await $content('articles')
-      .only(['title', 'description', 'img', 'slug', 'author'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug)
-      .fetch()
+      const article = await $content(url, params.slug).fetch()
+
+      const [prev, next] = await $content(url)
+        .only(['title', 'description', 'img', 'slug', 'author'])
+        .sortBy('createdAt', 'asc')
+        .surround(params.slug)
+        .fetch()
 
     return {
       article,

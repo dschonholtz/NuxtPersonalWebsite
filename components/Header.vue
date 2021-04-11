@@ -3,7 +3,8 @@
     <div class="nav-overlay uk-navbar-left">
         <NuxtLink class="uk-navbar-item uk-logo" to="/">Daily Progress</NuxtLink>
         <ul class="uk-navbar-nav">
-            <li><NuxtLink to="/blog/About">About</NuxtLink></li>
+            <li :class="this.aboutActive"><NuxtLink to="/blog/About">About</NuxtLink></li>
+            <li :class="this.dailyActive"><NuxtLink to="/daily">Dailies</NuxtLink></li>
         </ul>
     </div>
 
@@ -26,6 +27,26 @@
 </nav>
 
 </template>
+
+
+<script>
+  export default {
+    data() {
+        let about = '';
+        let daily = ''; 
+        if (this.$route.name.includes('dail')) {
+            daily = 'uk-active'; 
+        }
+        else if (this.$route.name.includes('/blog/About')) {
+            about= 'uk-active';
+        }
+      return {
+        aboutActive: about,
+        dailyActive: daily,
+      }
+    },
+  }
+</script>
 
 <style scoped lang="scss">
 </style>
