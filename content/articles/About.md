@@ -19,12 +19,12 @@ To this end, this blog isn't about a narrow subject. It will be about diet and e
 It will be about the books I am reading and have read. 
 It will be about psychology, business and economics because these ideas will be most exciting when they can be applied at scale.
 
-The one thing I can say for sure is this blog will be about research. It will be about trying to learn how to outperform the hardworkers who don't do their research.
-About how we as a society can progress as rapidly as possible in a sustainable way where standards of living go up for all.
+The one thing I can say for sure is that this blog will be about research. It will be about trying to learn how to outperform the hardworkers who don't try to optimize their output, and only try to maximize the hours they work.
+It is about how we as a society can progress as rapidly as possible in a sustainable way where standards of living go up for all.
 
 I hope those ideas are as exciting to you as they are to me.
 
-Remember to always chase your excitement.
+Chase your excitement.
 
 Douglas Schonholtz
 

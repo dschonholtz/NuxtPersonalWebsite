@@ -10,10 +10,9 @@ author:
   alt: Doug's profile pic
 ---
 
-I do not do this every day. 
-I strive to do this every day. Generally, speaking I think if you never fail a goal. It suggests your goals are pretty boring. This page will be evolving as I discover variants of my routine that work better for me.
+ Generally, speaking I think if you never fail a goal. It suggests your goals are pretty boring. Therefore, this routine is relatively ambitious, and I don't manage to accomplish it all every day. This page will be evolving as I discover variants of my routine that work better for me. 
 
-My goal here that I generally am pretty good at accomplishing is to never miss any item on this list two days or more in a row. Matt D'Avella has a great video on the importance of this two day rule if you are interested.
+My goal here that I am good at accomplishing is to never miss any item on this list two days or more in a row. Matt D'Avella has a great video on the importance of this two day rule if you are interested.
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bfLHTLQZ5nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,7 +24,7 @@ But enough chat. Here is the routine for a normal day.
   - I personally am a morning person. My hours before 11 am are my most productive so I try to be up early to do things and see people.
 - Put on pants
 - Run to a workout for 6:15 am while listening to an audio book
-  - Despite being a morning person. Unless there is something really pressing I have to do, like an aggressive deadline. I find the best way I get up early is for a workout. The run is ~.7 Miles or 1.1 Km.
+  - Despite being a morning person. Unless there is something really pressing I have to do, like an aggressive deadline. I find the best way I get up early is for a workout. The run is ~.7 Miles or 1.1 Km, just a warm-up before the workout.
 - 6:15 - 7:30 Workout 
   - Currently, my workout is crossfit, in the past it's been weightlifting, rock climbing, muay thai, or ski team dryland.
 - Walk home while listening to that audio book

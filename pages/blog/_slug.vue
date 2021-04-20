@@ -3,7 +3,7 @@
     <div class="uk-section uk-section-default uk-padding-remove-vertical">
       <div class="uk-container uk-container-large">
         <h1 class="uk-article-title">{{ article.title }}</h1>
-        <p class="uk-article-meta">Published: {{this.formatDate(article.createdAt) }}</p>
+        <p class="uk-article-meta">Published: {{this.formatDate(article.updatedAt) }}</p>
         <img :src="require(`~/assets/img/${article.img}`)" :alt="article.alt" class="article-img uk-align-center">
         <article class="uk-article">
           <nav class="toc">
@@ -51,7 +51,7 @@
 
       const [prev, next] = await $content(url)
         .only(['title', 'description', 'img', 'slug', 'author'])
-        .sortBy('createdAt', 'asc')
+        .sortBy('updatedAt', 'asc')
         .surround(params.slug)
         .fetch()
 
