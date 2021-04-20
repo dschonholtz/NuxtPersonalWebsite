@@ -31,6 +31,9 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/fontawesome',
+    ['@nuxtjs/google-analytics', {
+      id: 'G-0CP6SDM90K'
+    }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
