@@ -36,7 +36,7 @@ import SliderPreview from "~/components/SliderPreview.vue"
     async asyncData({ $content, params }) {
       const articles = await $content('articles/dailies', params.slug)
         .only(['title', 'description', 'img', 'slug', 'author'])
-        .sortBy('createdAt', 'des')
+        .sortBy('updatedAt', 'desc')
         .fetch()
 
       return {
