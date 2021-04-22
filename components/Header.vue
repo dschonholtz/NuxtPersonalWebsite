@@ -34,10 +34,10 @@
     data() {
         let about = '';
         let daily = ''; 
-        if (this.$route.name.includes('dail')) {
+        if (this.$nuxt.$route.name.includes('dail')) {
             daily = 'uk-active'; 
         }
-        else if (this.$route.name.includes('/blog/About')) {
+        else if (this.$nuxt.$route.name.includes('/blog/About')) {
             about= 'uk-active';
         }
       return {
