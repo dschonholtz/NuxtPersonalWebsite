@@ -49,7 +49,7 @@ export default {
         domains:['dailyprogress.dev',]
       }
     },
-    debug: true, // enable to track in dev mode
+    debug: false, // enable to track in dev mode
   },
   styleResources: {
     scss: ['./assets/scss/variables.scss', 'uikit/dist/css/uikit.css'],
