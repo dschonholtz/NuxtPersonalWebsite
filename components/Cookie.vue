@@ -4,11 +4,11 @@
         <div>
             <p>
                 Can I use cookies for analytics? Read
-                <nuxt-link to="blog/PrivacyPolicy">the privacy policy</nuxt-link>
+                <nuxt-link to="/blog/PrivacyPolicy">the privacy policy</nuxt-link>
                 for more information.
             </p>
-            <div class="uk-alert-close" @click="deny">&times;</div>
             <div class="uk-button uk-button-default" @click="accept">Yes, sure</div>
+            <div class="uk-button uk-button-default" @click="deny">Nah</div>
         </div>
     </div>
 </template>
