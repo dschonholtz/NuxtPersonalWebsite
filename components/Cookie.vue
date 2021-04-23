@@ -1,5 +1,5 @@
 <template>
-    <div v-if="isOpen"
+    <div v-show="isOpen"
          class="uk-alert">
         <div>
             <p>
