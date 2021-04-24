@@ -12,6 +12,12 @@ author:
 
 This is going to be a living document. I'll keep updating it as I read more. Part of this document is to keep myself accountable and aware of how many books are in progress at a time. That will hopefully keep me aware of how many balls I have in the air so I can finish fewer things at a time.
 
+## April 22nd 2021
+* <i> On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models </i>
+    * Finished
+    * This really taught me that I am more interested in meta-learning than in any individual technique like this. I also think that the IDSIA institution keeps coming up because I think they might write papers to be easily consumable and hyped up. I am not sure if they are actually an incredible school. Living in the Italian part of Switzerland studying AI would be neat though.
+    * I've started the Stanford Multi-task and Meta-learning Class from 2019 that is available online because of this paper. It's fascinating stuff.
+
 ## April 19th 2021
 
 * <i> On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models </i>
