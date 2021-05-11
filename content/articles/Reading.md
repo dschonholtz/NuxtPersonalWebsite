@@ -21,10 +21,10 @@ This is going to be a living document. I'll keep updating it as I read more. Par
 ## April 19th 2021
 
 * <i> On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models </i>
-    * In Progress
+    * Done
     * This is a really interesting read on how we could use reinforcement learning to build world models that behave in a manner similar to how humans think while reducing training time with heirarchical world models among several other techniques.
 * <i>Lifespan: Why We Age – and Why We Don't Have To</i>
-    * In Progress
+    * Done
     * How and why we age by a leading geneticist and age researcher at Harvard University
 * <i>The Best American Science Fiction and Fantasy of 2020 </i>
     * In Progress
