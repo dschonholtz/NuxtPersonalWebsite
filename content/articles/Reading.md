@@ -12,6 +12,11 @@ author:
 
 This is going to be a living document. I'll keep updating it as I read more. Part of this document is to keep myself accountable and aware of how many books are in progress at a time. That will hopefully keep me aware of how many balls I have in the air so I can finish fewer things at a time.
 
+## May 12th 2021
+* <i>The Future is Faster than You Think</i>
+* In Progress
+* This is a book about exponential thinking and technological convergance. It points out that our brains are slow and linear thinking and we can't really process explosive exponential trends, let alone thousands of them happening at once. This book looks at the fact that timing is normally the key player when a new technology is ready as several other technological pieces come together allowing a new innovation to come to pass. This really makes me want to start a new page called, Doug's Crazy Ideas where I try to capture some of my thoughts with regards to these explosive technologies. This book has inspired the idea of scraping Arxiv.org and looking for rapidly converging technologies and identifying them early so that one can know what industries to invest in or where to look for ground breaking product ideas. This is a fun one and an inspiring one.
+
 ## April 22nd 2021
 * <i> On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models </i>
     * Finished
@@ -26,6 +31,7 @@ This is going to be a living document. I'll keep updating it as I read more. Par
 * <i>Lifespan: Why We Age – and Why We Don't Have To</i>
     * Done
     * How and why we age by a leading geneticist and age researcher at Harvard University
+    * I would recommend reading it and doing your research before making any changes to your life but his regimen for staying young can be found [here](https://mentalpivot.com/practical-recommendations-from-david-sinclairs-lifespan/). 
 * <i>The Best American Science Fiction and Fantasy of 2020 </i>
     * In Progress
     * A collection of the best sci-fi and fantasy stories from the past year.
