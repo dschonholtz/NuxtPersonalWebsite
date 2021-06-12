@@ -12,9 +12,15 @@ author:
 
 This is going to be a living document. I'll keep updating it as I read more. Part of this document is to keep myself accountable and aware of how many books are in progress at a time. That will hopefully keep me aware of how many balls I have in the air so I can finish fewer things at a time.
 
+This originally would possibly have research papers going as well, but I have a tendency to touch several research papers at once and pull concepts from all of them for my understanding. Perhaps when I am writing thorough research papers of my own I'll document every paper I am formally reading here.
+
+## June 11th 2021
+
+* I am reading The Diamond Age again in preparation for our upcoming podcast.
+
 ## May 12th 2021
 * <i>The Future is Faster than You Think</i>
-* In Progress
+* Done
 * This is a book about exponential thinking and technological convergance. It points out that our brains are slow and linear thinking and we can't really process explosive exponential trends, let alone thousands of them happening at once. This book looks at the fact that timing is normally the key player when a new technology is ready as several other technological pieces come together allowing a new innovation to come to pass. This really makes me want to start a new page called, Doug's Crazy Ideas where I try to capture some of my thoughts with regards to these explosive technologies. This book has inspired the idea of scraping Arxiv.org and looking for rapidly converging technologies and identifying them early so that one can know what industries to invest in or where to look for ground breaking product ideas. This is a fun one and an inspiring one.
 
 ## April 22nd 2021
