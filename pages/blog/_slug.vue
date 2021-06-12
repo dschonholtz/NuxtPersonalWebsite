@@ -55,12 +55,36 @@
         .surround(params.slug)
         .fetch()
 
-    return {
-      article,
-      prev,
-      next
-    }
-  },
+      return {
+        article,
+        prev,
+        next,
+      }
+    },
+    computed: {
+      meta() {
+        const metaData = {
+          type: "article",
+          title: this.article.title,
+          description: this.article.description,
+          url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+          mainImage: this.article.image,
+        };
+        return metaData;
+      }
+    },
+    head() {
+      return {
+        title: this.meta.title,
+        meta: [
+          {
+            hid: this.meta.slug,
+            name: this.meta.title,
+            content: this.meta.description
+          }
+        ]
+      }
+    },
     methods: {
         formatDate(date) {
           const options = { year: 'numeric', month: 'long', day: 'numeric' }
