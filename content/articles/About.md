@@ -10,9 +10,9 @@ author:
   alt: Doug's Pic
 ---
 
-I really want to do things I find exciting. I want to do them well. I don't want to be depressed or bored and I want to surround myself with others that fill their life with the same excitement.
+I really want to do things I find exciting. I want to do them well. I don't want to be depressed or bored and I want to surround myself with others that fill their life with the same excited energy.
 
-This blog is about being productive and how I am keeping the demons at bay along with what is exciting to me. I find life hacking, machine learning and building things to fill that need for me.
+This blog is about being productive and how I am keeping the demons at bay along with what I am working on. I find life hacking, machine learning and building things to normally fill that need.
 
 I hope this inspires at least one other person to do whatever excites them.
 
