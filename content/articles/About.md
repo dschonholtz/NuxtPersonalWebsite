@@ -10,19 +10,11 @@ author:
   alt: Doug's Pic
 ---
 
-People often work really hard without optimizing how they work
+I really want to do things I find exciting. I want to do them well. I don't want to be depressed or bored and I want to surround myself with others that fill their life with the same excitement.
 
-This blog is about noticing the things I do over and over again and instead of working directly on making the volume of output higher by working longer hours on those thing. I instead am going to attempt to work on the rate at which those things are accomplished.
+This blog is about being productive and how I am keeping the demons at bay along with what is exciting to me. I find life hacking, machine learning and building things to fill that need for me.
 
-To this end, this blog isn't about a narrow subject. It will be about diet and exercise and sleep to make sure I feel and work my best. At the same time it is about machine learning to see if we can automate many of the tasks myself and many others have to work through tediously. 
-
-It will be about the books I am reading and have read. 
-It will be about psychology, business and economics because these ideas will be most exciting when they can be applied at scale.
-
-The one thing I can say for sure is that this blog will be about research. It will be about trying to learn how to outperform the hardworkers who don't try to optimize their output, and only try to maximize the hours they work.
-It is about how we as a society can progress as rapidly as possible in a sustainable way where standards of living go up for all.
-
-I hope those ideas are as exciting to you as they are to me.
+I hope this inspires at least one other person to do whatever excites them.
 
 Chase your excitement.
 
