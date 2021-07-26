@@ -4,6 +4,7 @@
         <NuxtLink class="uk-navbar-item uk-logo" to="/">Daily Progress</NuxtLink>
         <ul class="uk-navbar-nav">
             <li :class="this.aboutActive"><NuxtLink to="/blog/About">About</NuxtLink></li>
+            <li :class="this.dailyActive"><NuxtLink to="/deas">Doug's Daily 'deas</NuxtLink></li>
             <li :class="this.dailyActive"><NuxtLink to="/daily">Dailies</NuxtLink></li>
         </ul>
     </div>

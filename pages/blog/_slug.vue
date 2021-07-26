@@ -46,6 +46,9 @@
       if (params.slug.includes('daily')) {
         url = 'articles/dailies';
       }
+      if (params.slug.substr(0,3) === 'Dea') {
+        url = 'articles/deas';
+      }
 
       const article = await $content(url, params.slug).fetch()
 
