@@ -1,7 +1,7 @@
 ---
 title: Making Really Bad Ideas
 description: A description of how research papers and patents can be clustered to predict future research.
-img: stupidsheep.jpg
+img: StupidSheep.jpg
 alt: My first blog post Logo image for blog
 author:
   name: Douglas
