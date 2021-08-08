@@ -14,11 +14,13 @@ This is going to be a living document. I'll keep updating it as I read more. Par
 
 This originally would possibly have research papers going as well, but I have a tendency to touch several research papers at once and pull concepts from all of them for my understanding. Perhaps when I am writing thorough research papers of my own I'll document every paper I am formally reading here.
 
+## July 27th
+* Picked up The First 90 Days Michael D. Watkins
+
 ## July 25th
 * The Vital Few - Jonathon Hughes
 * Being Mortal - Atul Gawande
 * Finished Data Science for Business
-* 
 
 ## July 11th 2021
 * I finished The Diamond Age

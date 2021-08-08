@@ -15,7 +15,7 @@ author:
 My goal here that I am good at accomplishing is to never miss any item on this list two days or more in a row. Matt D'Avella has a great video on the importance of this two day rule if you are interested.
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bfLHTLQZ5nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/bfLHTLQZ5nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 But enough chat. Here is the routine for a normal day.
@@ -67,5 +67,5 @@ The workouts I have available at my gym are at different times. But I try to get
 A lot of this was heavily inspired by Lex Friedman's daily routine. You can check out his version of it below.
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0m3hGZvD-0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/0m3hGZvD-0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
