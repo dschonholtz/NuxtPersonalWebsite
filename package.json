@@ -20,7 +20,7 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.36.0",
     "sass-loader": "^10.1.1",
-    "uikit": "^3.6.18",
+    "uikit": "^3.7.2",
     "vue-gtag": "^1.14.0"
   },
   "devDependencies": {
